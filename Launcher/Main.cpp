@@ -45,7 +45,7 @@ void InjectDLL()
 {
     if (!std::filesystem::exists(kyberDllPath))
     {
-        DownloadDLL();
+        MessageBoxA(NULL, "Make sure you have the dll BESIDE the launcher.exe", "GardenGate Launcher", MB_OK);
         return;
     }
 
@@ -255,7 +255,7 @@ int WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int n
     ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 
     //DownloadDLL();
-    kyberDllPath = std::filesystem::temp_directory_path() / "Kyber" / "Kyber.dll";
+    kyberDllPath = std::filesystem::current_path() / "Kyber" / "Kyber.dll";
     std::string kyberDllPathStr = kyberDllPath.u8string();
 
     while (!glfwWindowShouldClose(window))
