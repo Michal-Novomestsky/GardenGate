@@ -1,31 +1,21 @@
 > [!WARNING]
-> This doesn't work yet, very WIP.
-
+> This Injects now! though the draw of Server Setup will just die, still working on it
+> The base of this is NOT MY CODE, it is a fork of Kyber modified to run on GW1
 ------
 This is simply adding GW1 (potentially GW2) dedicated server support.
 
-A hosted version of Kyber is available at [kyber.gg](https://kyber.gg), where I operate proxies for server data that alleviate the issue of port forwarding and IP security.
-
-What's done:
-* Server starting
-* Networking
-* Direct proxy support
+* Offsets changed to GW1's (some of them are rough)
+* Server joining menu
+* Kyber Proxy removed due to issues.
 * NAT Punch-Through system
-* In-Game server browser
+* In-Game server browser (when this works lol)
 * Per-player team swapping
-* Player kicking/moderation
-* Optimal proxy detection
+* Player kicking/moderation (maybe not possible, can't find the offsets)
 
 What isn't done:
-* Built-in mod verification (currently handled at the proxy level, meaning it's unavailable if you direct-connect)
-* Kick messages (currently if you are kicked by the server admin you just get sent back to the menu with no indication of why)
-* UX/UI Styling (WIP)
-* Player banning
-* Database handling at the proxy level
+* Lmao like, everything else
 
-If you want to use Kyber purely without a proxy (port forwarding and having people connect to your IP), the rewrite (this) is completely usable for that, feel free to build Kyber and inject it with the new launcher (/Launcher, will need a few modifications to run your own dll).
-
-**Stars and PRs are welcome!**
+Due to security reasons, i'd reccomend keeping multiplayer servers on LAN over things like RadminVPN if things work.
 
 ## Credits
 
@@ -38,3 +28,4 @@ Kyber utilizes the following open-source projects:
 - [openssl](https://openssl.org)
 - [executors](https://github.com/chriskohlhoff/executors)
 - [nlohmann-json](https://github.com/nlohmann/json)
+- [Kyber](github.com/ArmchairDevelopers/Kyber)
