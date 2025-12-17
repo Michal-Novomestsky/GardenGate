@@ -8,7 +8,7 @@
 #include <streambuf>
 #include <string>
 
-#define OFFSET_EXECUTIONCONTEXT_GETNATIVEDATAPATH 0x1401FDEC0
+#define OFFSET_EXECUTIONCONTEXT_GETNATIVEDATAPATH 0x1416725f0
 
 namespace Kyber
 {

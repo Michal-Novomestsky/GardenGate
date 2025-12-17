@@ -155,7 +155,7 @@ void ServerWindow::Draw()
             errorTime--;
         }
     }
-    /* else if (g_program->m_clientState == ClientState_Ingame)
+    else if (g_program->m_clientState == ClientState_Ingame)
     {
         ImGui::Text("Leave this game to start a new one.");
         ImGui::Separator();
@@ -222,7 +222,6 @@ void ServerWindow::Draw()
         ImGui::Text("Settings will be available once");
         ImGui::Text("the game is fully loaded.");
     }
-    */
     ImGui::End();
 }
 } // namespace Kyber
