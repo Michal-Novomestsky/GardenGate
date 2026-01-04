@@ -34,4 +34,5 @@ We recommend;
 
 ### (Use `-dataPath ModData/Default` arguement or `GAME_DATA_DIR` env var for mods to work for hosting. We're working on a host option for the launcher that does this)
 
-### (Make sure to port forward `25200` or use some sort of vpn software)
+### (Make sure to port forward `25200` or use some sort of VLAN software)
+### RadminVPN or Hamachi
