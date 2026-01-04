@@ -4,7 +4,7 @@
 2. Install the following mods for best experience
 
 ### Garden warfare 1
-[Unlocker](../Mods/GW1/UnlockAll.fbmod)
+[UnlockAll](../Mods/GW1/UnlockAll.fbmod)
 
 ### Garden warfare 2
 
