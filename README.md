@@ -1,33 +1,36 @@
-> [!WARNING]
-> This Injects now! though starting a server will kill it, reason being that some offsets are wrong.
-> The base of this is NOT MY CODE, it is a fork of Kyber modified to run on GW1
+<div align="center">
+  <img src="/Assets/Logo.png" alt="GardenGate" style="width: 10rem;">
+  <h1 style="font-size: 2.5rem; margin-top: 0.5rem;">GardenGate</h1>
+</div>
+
+Experimental private servers for Plants vs. Zombies Garden Warfare 1 & 2
+
 ------
-This is simply adding GW1 (potentially GW2) dedicated server support.
-
-* Offsets changed to GW1's (some of them are rough)
-* Server joining menu
-* Kyber Proxy removed due to issues.
-* NAT Punch-Through system
-* In-Game server browser
+What's done:
+* Offsets changed
+* Hosting servers
+* Joining
 * Custom unlocker mod that unlocks everything
-* Per-player team swapping
-* Player kicking/moderation (maybe not possible, can't find the offsets)
 
-What isn't done:
-* Fix crashes caused by; lnck,cmms
-* Polish imgui stuff
-
-Due to security reasons, i'd reccomend keeping multiplayer servers on LAN over things like RadminVPN if things work.
+What's not done:
+* Fix rare crashes caused by; lnck,cmms
+* GUI launcher
+* Player kicking/moderation
 
 ## Credits
 
-Kyber utilizes the following open-source projects:
+RaT
+
+nocss
+
+twig
+
+blueballoon
+
+rex
+
+### Projects
+Following open-source projects were used:
 
 - [MinHook](https://github.com/TsudaKageyu/minhook)
-- [ImGUI](https://github.com/ocornut/imgui)
-- [GLFW](https://glfw.org)
-- [cpp-httplib](https://github.com/yhirose/cpp-httplib)
-- [openssl](https://openssl.org)
-- [executors](https://github.com/chriskohlhoff/executors)
-- [nlohmann-json](https://github.com/nlohmann/json)
-- [Kyber](github.com/ArmchairDevelopers/Kyber)
+- [Kyber](https://github.com/ArmchairDevelopers/Kyber)

@@ -19,12 +19,12 @@ jobs:
 
       - name: Restore NuGet Packages
         run: |
-          cd GUI_Launcher
+          cd Launcher
           dotnet restore Launcher.slnx
 
       - name: Build
         run: |
-          cd GUI_Launcher
+          cd Launcher
           dotnet build Launcher.slnx -c Release
 
       - name: Upload Artifacts
@@ -32,4 +32,4 @@ jobs:
         with:
           name: Release
           path: |
-            GUI_Launcher/bin
+            Launcher/bin
