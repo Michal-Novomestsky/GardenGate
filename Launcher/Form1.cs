@@ -166,7 +166,7 @@ namespace Launcher
 
 
             dlg.Filter = isGW2
-                ? "PVZGW2|GW2.PreEAAC.exe"
+                ? "PVZGW2|GW2.Main_Win64_Retail.exe"
                 : "PVZGW1|PVZ.Main_Win64_Retail.exe";
 
             if (dlg.ShowDialog() != DialogResult.OK)
@@ -244,3 +244,4 @@ namespace Launcher
         }
     }
 }
+
