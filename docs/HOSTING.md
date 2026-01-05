@@ -32,8 +32,9 @@ We recommend;
 
 [AIHax](../Mods/GW2/AIHax.fbmod) (Nam)
 
-# Make sure your load order is the same as this image! #
-<img width="383" height="111" alt="image" src="./Assets/mod_load_order.webp" />
+[UpgradesUnlocker](../Mods/GW2/UpgradesUnlocker.fbmod)
+
+<img src="./Assets/mod_load_order.webp" />
 
 3. Launch the game with the launcher (keep the ip section empty)
 

@@ -8,12 +8,16 @@
 
 ### Garden warfare 2 [(PLEASE DOWNGRADE YOUR GAME FIRST)](./gw2_downgrade.md)
 
-### Please install these mods in their respective order
+### Install the following mods in their respective order;
 
 [Private Play](../Mods/GW2/PrivatePlayRemastered.fbmod) (Dark Damona,brekko)
 
 [Offline mode](../Mods/GW2/OfflineModeLatestCompatible.fbmod) (brekko)
 
 [AIHax](../Mods/GW2/AIHax.fbmod) (Nam)
+
+[UpgradesUnlocker](../Mods/GW2/UpgradesUnlocker.fbmod)
+
+<img src="./Assets/mod_load_order.webp" />
 
 3. Join with the launcher
