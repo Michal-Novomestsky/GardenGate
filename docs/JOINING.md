@@ -8,9 +8,11 @@
 
 ### Garden warfare 2 [(PLEASE DOWNGRADE YOUR GAME FIRST)](./gw2_downgrade.md)
 
-[Offline mode](../Mods/GW2/OfflineModeLatestCompatible.fbmod) (brekko)
+### Please install these mods in their respective order
 
 [Private Play](../Mods/GW2/PrivatePlayRemastered.fbmod) (Dark Damona,brekko)
+
+[Offline mode](../Mods/GW2/OfflineModeLatestCompatible.fbmod) (brekko)
 
 [AIHax](../Mods/GW2/AIHax.fbmod) (Nam)
 

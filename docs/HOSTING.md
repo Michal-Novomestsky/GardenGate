@@ -24,7 +24,7 @@ We recommend;
 
 1. Put `dinput8.dll` from [releases](https://github.com/nocss42/GardenGate/releases) next to your game's .exe
 
-2. Install the following mods;
+2. Install the following mods in their respective order;
 
 [Offline mode](../Mods/GW2/OfflineModeLatestCompatible.fbmod) (brekko)
 
