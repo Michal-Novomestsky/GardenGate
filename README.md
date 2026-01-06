@@ -16,6 +16,7 @@ Experimental private servers for Plants vs. Zombies Garden Warfare 1 & 2
 * Fix rare crashes caused by; lnck
 * Player kicking/moderation
 * Fix crash when loading boney island ops
+* Integrate patcher to launcher for gw2
 
 ### [Discord server](https://discord.gg/sEs9NcUrF9)
 

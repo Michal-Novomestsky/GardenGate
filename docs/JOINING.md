@@ -1,5 +1,5 @@
 # Joining
-1. Put `dinput8.dll` from [releases](../../releases) next to your game's .exe and download the launcher (also at the releases section)
+1. Put `dinput8.dll` from [releases](https://github.com/nocss42/GardenGate/releases) next to your game's .exe and download the launcher (also at the releases section)
 
 2. Install the following mods for best experience
 
