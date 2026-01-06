@@ -28,14 +28,6 @@ We recommend;
 
 3. Import the FBPack in Frosty Mod Manager, the load order should be something like this;
 
-Private Play (Dark Damona,brekko)
-
-Private Play Extension (Dark Damona,brekko)
-
-Offline mode + GardenGate Extras (brekko, modified)
-
-AIHax (Nam)
-
 <img src="./Assets/Load_Order.PNG" />
 
 3. Launch the game with the launcher (keep the ip section empty)
@@ -44,3 +36,12 @@ AIHax (Nam)
 
 ### (Make sure to port forward `25200` or use some sort of VLAN software)
 ### RadminVPN or Hamachi, Add your friends to the network and join by the IP it provides.
+
+### Mod Credits ###
+Private Play (Dark Damona,brekko)
+
+Private Play Extension (Dark Damona,brekko)
+
+Offline mode + GardenGate Extras (brekko, modified)
+
+AIHax (Nam)
