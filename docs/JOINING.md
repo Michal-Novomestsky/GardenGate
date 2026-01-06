@@ -6,7 +6,7 @@
 ### Garden warfare 1
 [UnlockAll](../Mods/GW1/UnlockAll.fbmod)
 
-### Garden warfare 2 [(PLEASE DOWNGRADE YOUR GAME FIRST)](./gw2_downgrade.md)
+### Garden warfare 2 [(PLEASE DOWNGRADE YOUR GAME FIRST)](./GW2_DOWNGRADE.md)
 
 ### Install the following mods in their respective order;
 

@@ -3,6 +3,9 @@
 ### Is this an official Garden warfare 1 server?
 No, this is a private server project created for educational and experimental purposes. It is not affiliated with or endorsed by EA.
 
+### Does this make gw2 work with wine again?
+Yes it should. We need testers to write documentation tho.
+
 ### Does this work on console?
 No it doesn't.
 
