@@ -16,7 +16,6 @@ Experimental private servers for Plants vs. Zombies Garden Warfare 1 & 2
 * Fix rare crashes caused by; lnck
 * Player kicking/moderation
 * Integrate patcher to launcher for gw2
-
 * Fix return to backyard button
 
 ### [Discord server](https://discord.gg/sEs9NcUrF9)
