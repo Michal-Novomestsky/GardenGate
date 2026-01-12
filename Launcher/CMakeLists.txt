@@ -78,7 +78,6 @@ target_compile_options(${PROJECT_NAME} PRIVATE
 )
 
 # ---- Libraries ----
-# ---- Libraries ----
 if (MSVC)
     target_link_libraries(${PROJECT_NAME} PRIVATE
         d3d11
