@@ -7,9 +7,7 @@
 * Install the game from ea app, launch it once
 
 ### 2. Download and place files to your game's root directory ###
-Download and place these files to the game's root directory:
-
-[dinput8.dll](https://github.com/nocss42/GardenGate/releases)
+Download the archive from [the releases](https://github.com/nocss42/GardenGate/releases) tab, launch it > go to patcher and press apply patch
 
 ### 3. Install the mods ###
 Use [this gw1 compatible frosty mod manager](https://github.com/Twig6943/FrostyToolsuiteGW1Linux/releases) instead of the stock one as the stock one doesn't work with wine nor gw1. Get the mods from [here](../Mods/GW1)
@@ -47,14 +45,9 @@ winmm
 `installScript.vdf` to `installScript.vdf.bak`
 
 ### 3. Downgrade your game ###
-[Downgrade your game](./GW2_DOWNGRADE.md)
+Download the archive from [the releases](https://github.com/nocss42/GardenGate/releases) tab, launch it > go to patcher and press apply patch
 
-### 4. Download and place files to your game's root directory ###
-Download and place these files to the game's root directory:
-
-[dinput8.dll](https://github.com/nocss42/GardenGate/releases)
-
-### 5. Install the mods in the right order ###
+### 4. Install the mods in the right order ###
 Use [this frosty mod manager](https://github.com/maniman303/FrostyToolsuite/releases) instead of the stock one as the stock one doesn't work with wine. Get the mods from [here](../Mods/GW2/GardenGate.fbpack)
 
 **<img src="./Assets/load_order.webp" />**
@@ -75,7 +68,7 @@ winmm
 (They should be set to native,builtin)
 
 ### 7. Start Garden warfare 2 ###
-- Launch gw2 from your launcher (verify `EAAntiCheat.GameServiceLauncher.exe` hasn't regenerated)
+- Launch gw2 via the launcher if you own it on EA. If you own the game on steam just pass in the launch args yourself;
 
 ### Arguements ###
 `-name`
