@@ -431,7 +431,7 @@ static void drawPatcherTab(HWND hwnd, float dpiScale) {
 			return std::string(path);
 			}()).parent_path();
 
-		std::string patchFile = (launcherDir / "gw2_patch.xdelta").string();
+		std::string patchFile = (launcherDir / "GW2.Main_Win64_Retail.exe.xdelta").string();
 		std::string dllFile = (launcherDir / "dinput8.dll").string();
 		bool hasPatch = fs::exists(patchFile), hasDLL = fs::exists(dllFile);
 
@@ -440,7 +440,7 @@ static void drawPatcherTab(HWND hwnd, float dpiScale) {
 			ImGui::TextColored(ImVec4(1, 0.5f, 0, 1), "Missing required files:");
 			if (!hasPatch) {
 				ImGui::SetCursorPosX(centerOffset);
-				ImGui::Text("- gw2_patch.xdelta");
+				ImGui::Text("- GW2.Main_Win64_Retail.exe.xdelta");
 			}
 			if (!hasDLL) {
 				ImGui::SetCursorPosX(centerOffset);
