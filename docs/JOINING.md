@@ -1,5 +1,5 @@
 # Joining
-1. Put `dinput8.dll` from [releases](https://github.com/nocss42/GardenGate/releases) next to your game's .exe and download the launcher (also at the releases section)
+1. Download the archive from [releases](https://github.com/nocss42/GardenGate/releases) 
 
 2. Install the following mods for best experience
 
@@ -14,7 +14,7 @@ Import the FBPack in Frosty Mod Manager, the load order should be something like
 
 <img src="./Assets/load_order.webp" />
 
-3. Join with the launcher
+3. Open up the launcher go to patcher and press auto detect > patch and then press launch
 
 ### Mod Credits ###
 Private Play (Dark Damona,brekko)
