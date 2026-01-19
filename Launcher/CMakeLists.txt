@@ -27,6 +27,12 @@ endif()
 # ---- Target ----
 add_executable(${PROJECT_NAME} WIN32)
 
+if (MSVC)
+    target_link_options(${PROJECT_NAME} PRIVATE
+        /MANIFEST:NO
+    )
+endif()
+
 # ---- Language / standard ----
 target_compile_features(${PROJECT_NAME} PRIVATE cxx_std_20)
 
