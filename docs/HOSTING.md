@@ -49,7 +49,7 @@ Put the one of your choice to game's directory and name it as `level_loader.dll`
 ### (Make sure to port forward `25200` or use some sort of VPN software)
 ### RadminVPN or Hamachi, Add your friends to the network and join by the IP it provides.
 
-### Mod Credits ###
+### Mod Credits
 Private Play (Dark Damona,brekko)
 
 Private Play Extension (Dark Damona,brekko)

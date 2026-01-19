@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/Assets/Logo.png" alt="GardenGate" style="width: 10rem;">
+  <img src="./Assets/logo.webp" alt="GardenGate" style="width: 10rem;">
   <h1 style="font-size: 2.5rem; margin-top: 0.5rem;">GardenGate</h1>
 </div>
 

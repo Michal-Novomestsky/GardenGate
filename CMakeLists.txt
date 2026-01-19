@@ -47,3 +47,9 @@ endif()
 set_target_properties(${PROJECT_NAME} PROPERTIES
   OUTPUT_NAME "dinput8"
 )
+if (MINGW)
+  set_target_properties(${PROJECT_NAME} PROPERTIES
+    PREFIX ""
+    IMPORT_PREFIX ""
+  )
+endif()

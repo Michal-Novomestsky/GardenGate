@@ -18,7 +18,7 @@ Import the FBPack in Frosty Mod Manager, the load order should be something like
 
 3. Open up the launcher go to patcher and press auto detect > patch and then press launch
 
-### Mod Credits ###
+### Mod Credits
 Private Play (Dark Damona,brekko)
 
 Private Play Extension (Dark Damona,brekko)

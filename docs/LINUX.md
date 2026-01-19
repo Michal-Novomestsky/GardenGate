@@ -3,16 +3,16 @@
 ### Keep in mind that this is currently experimental.
 
 # Garden warfare 1
-### 1. Install the game ###
+### 1. Install the game
 * Install the game from ea app, launch it once
 
-### 2. Download and place files to your game's root directory ###
+### 2. Download and place files to your game's root directory
 Download the archive from [the releases](https://github.com/nocss42/GardenGate/releases) tab, launch it > go to patcher and press apply patch
 
-### 3. Install the mods ###
+### 3. Install the mods
 Use [this gw1 compatible frosty mod manager](https://github.com/Twig6943/FrostyToolsuiteGW1Linux/releases) instead of the stock one as the stock one doesn't work with wine nor gw1. Get the mods from [here](../Mods/GW1)
 
-### 4. Configure data dir env var & dlloverrides ###
+### 4. Configure data dir env var & dlloverrides
 Use `GAME_DATA_DIR` environment variable as ea app won't allow special characters like `/` as launch args
 
 ```
@@ -30,22 +30,22 @@ winmm
 - Launch via the launcher
 
 # Garden warfare 2/Battle for Neighborville
-### 1. Install the game ###
+### 1. Install the game
 * Install the game from your platform, launch it once
 * If prompted about the anti-cheat, select `Yes`
 * You should receive an error message like `wine not supported` - click OK
 
-**<img src="./Assets/wine_not_supported.webp" />**
+<img src="./Assets/wine_not_supported.webp" />
 
-### 2. Downgrade your game ###
+### 2. Downgrade your game
 Download the archive from [the releases](https://github.com/nocss42/GardenGate/releases) tab, launch it > go to patcher and press apply patch
 
-### 3. Install the mods in the right order ###
+### 3. Install the mods in the right order
 Use [this frosty mod manager](https://github.com/maniman303/FrostyToolsuite/releases) instead of the stock one as the stock one doesn't work with wine. Get the mods for gw2 [here](../Mods/GW2/GardenGate.fbpack)
 
 <img src="./Assets/load_order.webp" />
 
-### 4. Configure dlloverrides ###
+### 4. Configure dlloverrides
 Add the following launch option in Steam:
 ```
 WINEDLLOVERRIDES="dinput8=n,b;winmm=n,b" %command% -dataPath ModData/Default
@@ -60,10 +60,10 @@ winmm
 
 (They should be set to native,builtin)
 
-### 5. Launch the game ###
+### 5. Launch the game
 - Launch via the launcher if you own the game on EA App. If you own the game on steam just pass in the launch args yourself;
 
-### Arguements ###
+### Arguements
 `-name`
 
 `-dataPath`
