@@ -1,5 +1,7 @@
 # Hosting
 
+# If you own gw2 or bfn on EA App your files might get verified the moment you restart the app. Run the launcher as administrator patch your game, pass in the arguements yourself and press launch from the ea app itself (we're looking into this)
+
 ### Garden warfare 1
 
 1. Download the archive from [releases](https://github.com/nocss42/GardenGate/releases)
