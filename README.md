@@ -13,7 +13,7 @@ Experimental private servers for Plants vs. Zombies Garden Warfare 1,2 & Battle 
 * Custom unlocker mod that unlocks everything
 
 ### What's not done (TODO):
-* Fix EA App reverifying files upon restarting if the game's been downgraded
+* Fix bfn crashing after restoring from launcher (not sure if it happens always)
 * Player kicking/moderation
 * Bot support for gw1
 * Make it so that only host can load into levels
