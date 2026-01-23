@@ -184,6 +184,11 @@ namespace Utils {
 
 		void PatchEAArgs(const std::string& args, int gameType) {
 			fs::path eaDir = fs::path(getenv("LOCALAPPDATA")) / "Electronic Arts" / "EA Desktop";
+
+			if (!fs::exists(eaDir) || !fs::is_directory(eaDir)) {
+				return;
+			}
+
 			const std::vector<std::string> gw1Keys = {
 				"user.gamecommandline.ofb-east:109551084",
 				"user.gamecommandline.ofb-east:109550787",
@@ -264,6 +269,10 @@ namespace Utils {
 				if (splitPos == std::string::npos) continue;
 				std::string path = filePath.substr(0, splitPos);
 				std::string key = filePath.substr(splitPos + 1);
+
+				if (!fs::exists(path)) {
+					continue;
+				}
 
 				std::ifstream in(path);
 				if (!in) continue;
