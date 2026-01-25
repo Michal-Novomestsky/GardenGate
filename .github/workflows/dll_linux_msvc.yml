@@ -33,6 +33,7 @@ jobs:
         run: |
           sudo -u builder sh <<'EOF'
           set -e
+          cd ~
           git clone https://github.com/mstorsjo/msvc-wine
           cd msvc-wine
           ./vsdownload.py --dest ~/my_msvc --accept-license
