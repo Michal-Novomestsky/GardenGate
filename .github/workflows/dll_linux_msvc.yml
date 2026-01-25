@@ -35,7 +35,7 @@ jobs:
           set -e
           git clone https://github.com/mstorsjo/msvc-wine
           cd msvc-wine
-          ./vsdownload.py --dest ~/my_msvc
+          ./vsdownload.py --dest ~/my_msvc --accept-license
           ./install.sh ~/my_msvc/opt/msvc
           cd ..
           export PATH=~/my_msvc/opt/msvc/bin/x64:$PATH
